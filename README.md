@@ -6,6 +6,8 @@ language: bash
 
 ## Environment Set Up - Part 3
 
+***If you are using a Chromebook, scroll to the bottom of this README and look at the "For Chromebooks Only" section.***
+
 ###1. Installing RVM
 RVM stands for Ruby Version Manager. Ruby, just like software, has newer and older versions. RVM allows you to have multiple versions of ruby installed on your computer that you can easily switch back and forth between. 
 
@@ -40,3 +42,29 @@ Once the file is open, you'll need to paste the below into the file:
   "selector": "source.ruby"
 } 
 ```
+
+###2. Update your Bash Profile
+Make sure you are in your root directory by typing `cd ~` in your terminal. From here you should be able to open up your bash profile with this command `subl .bash_profile`.
+
+Scroll down to the very bottom of your bash profile and copy and paste this code after everything else that is already in there:
+
+```
+# Final Configurations and Plugins
+# =====================
+  # Git Bash Completion
+  # Will activate bash git completion if installed
+  # via homebrew
+  if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
+  fi
+
+  # RVM
+  # Mandatory loading of RVM into the shell
+  # This must be the last line of your bash_profile always
+  [[ -s "/Users/$USER/.rvm/scripts/rvm" ]] && source "/Users/$USER/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+```
+
+
+##For Chromebooks Only
+
+***Add some instructions for students to double check their RVM set up.***
