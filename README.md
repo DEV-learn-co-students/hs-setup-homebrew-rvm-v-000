@@ -6,18 +6,16 @@ language: bash
 
 ## Environment Set Up - Part 3
 
-***If you are using a Chromebook, scroll to the bottom of this README and look at the "For Chromebooks Only" section.***
-
 ###1. Installing RVM
 RVM stands for Ruby Version Manager. Ruby, just like software, has newer and older versions. RVM allows you to have multiple versions of ruby installed on your computer that you can easily switch back and forth between. 
 
 ```
-\curl -L https://get.rvm.io | bash -s stable --ruby=2.1.0
+\curl -L https://get.rvm.io | bash -s stable --ruby=2.1.3
 ```
 
-This command will install the latest version as ruby, as well as the newest stable version, which here is 2.1.0.
+This command will install the latest version as ruby, as well as the newest stable version, which here is 2.1.3.
 
-Now, we want to make 2.1.0 our default version. Enter `rvm use 2.1.0 --default`. If you open a new tab and then type `ruby -v`, you should see 2.1.0
+Now, we want to make 2.1.3 our default version. Enter `rvm use 2.1.3 --default`. If you open a new tab and then type `ruby -v`, you should see 2.1.3
 
 If you get any errors installing RVM that are related to XCode of GCC, it means you'll need to uninstall XCode and start this guide all over from step 2.
 
@@ -63,8 +61,3 @@ Scroll down to the very bottom of your bash profile and copy and paste this code
   # This must be the last line of your bash_profile always
   [[ -s "/Users/$USER/.rvm/scripts/rvm" ]] && source "/Users/$USER/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 ```
-
-
-##For Chromebooks Only
-
-***Add some instructions for students to double check their RVM set up.***
