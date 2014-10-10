@@ -17,7 +17,7 @@ This command will install the latest version as ruby, as well as the newest stab
 
 Now, we want to make 2.1.3 our default version. Enter `rvm use 2.1.3 --default`. If you open a new tab and then type `ruby -v`, you should see 2.1.3
 
-If you get any errors installing RVM that are related to XCode of GCC, it means you'll need to uninstall XCode and start this guide all over from step 2.
+If you get any errors installing RVM that are related to XCode or GCC, it means you'll need to uninstall XCode and start this guide all over from step 2.
 
 If you have issues with Homebrew, You can try reinstalling it with this command:
 ```
