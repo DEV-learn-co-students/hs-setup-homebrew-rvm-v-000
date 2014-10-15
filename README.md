@@ -41,7 +41,7 @@ Once the file is open, you'll need to paste the below into the file:
 } 
 ```
 
-###2. Update your Bash Profile
+###3. Update your Bash Profile
 Make sure you are in your root directory by typing `cd ~` in your terminal. From here you should be able to open up your bash profile with this command `subl .bash_profile`.
 
 Scroll down to the very bottom of your bash profile and copy and paste this code after everything else that is already in there:
