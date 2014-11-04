@@ -24,7 +24,22 @@ If you have issues with Homebrew, You can try reinstalling it with this command:
 
 If you get any errors related to XCode or GCC, try reinstalling XCode developer tools with this command `xcode-select --install`, then try installing RVM again. 
 
-###2. RVM and Sublime Together
+###2. Install RSpec
+Type `gem install rspec` in your terminal.
+
+
+###3. Install The Ironboard Gem
+This gem isn't open-sourced, so we won't be downloading it from RubyGems.org, which is where most gems are hosted. Before we download it, we will need to specify where it's coming from, which is a private server at Flatiron. Type this into your command line;
+
+`gem sources -a http://flatiron:33west26@gems.flatironschool.com/`
+
+Next, download the gem:
+
+`gem install ironboard`
+
+The ironboard gem will help track your progress on labs.
+
+###3. RVM and Sublime Together
 To get RVM and Sublime to play nice, we need to do the following:
 ```
 open "$HOME/Library/Application Support/Sublime Text 2/Packages/Ruby/Ruby.sublime-build"
@@ -41,7 +56,7 @@ Once the file is open, you'll need to paste the below into the file:
 } 
 ```
 
-###3. Update your Bash Profile
+###4. Update your Bash Profile
 Make sure you are in your root directory by typing `cd ~` in your terminal. From here you should be able to open up your bash profile with this command `subl .bash_profile`.
 
 Scroll down to the very bottom of your bash profile and copy and paste this code after everything else that is already in there:
