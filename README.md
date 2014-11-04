@@ -24,11 +24,11 @@ If you have issues with Homebrew, You can try reinstalling it with this command:
 
 If you get any errors related to XCode or GCC, try reinstalling XCode developer tools with this command `xcode-select --install`, then try installing RVM again. 
 
-###2. Install RSpec
+###2. Installing RSpec
 Type `gem install rspec` in your terminal.
 
 
-###3. Install The Ironboard Gem
+###3. Installing The Ironboard Gem
 This gem isn't open-sourced, so we won't be downloading it from RubyGems.org, which is where most gems are hosted. Before we download it, we will need to specify where it's coming from, which is a private server at Flatiron. Type this into your command line;
 
 `gem sources -a http://flatiron:33west26@gems.flatironschool.com/`
