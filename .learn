@@ -1,0 +1,9 @@
+tags:
+  - kids
+  - setup
+  - rvm
+  - homebrew
+type:
+  - environment setup
+languages:
+  - bash
