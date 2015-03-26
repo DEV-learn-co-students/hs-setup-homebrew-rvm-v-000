@@ -24,16 +24,16 @@ If you get any errors related to XCode or GCC, try reinstalling XCode developer 
 ###2. Installing RSpec
 Enter `gem install rspec` in your terminal.
 
-###3. Installing The Ironboard Gem
+###3. Installing The Learn Gem
 This gem isn't open-sourced, so we won't be downloading it from rubygems.org, which is where most gems are hosted. Before we download it, we will need to specify where it's coming from, which is a private server at Flatiron School. Type this into your command line:
 
 `gem sources -a http://flatiron:33west26@gems.flatironschool.com/`
 
 Next, download the gem:
 
-`gem install ironboard`
+`gem install learn-co`
 
-The Ironboard gem will help track your progress on labs.
+The Learn gem will help track your progress on labs.
 
 ###3. RVM and Sublime Together
 To get RVM and Sublime to play nice, we need to do the following:
