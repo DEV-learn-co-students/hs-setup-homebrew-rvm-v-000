@@ -1,8 +1,4 @@
----
-tags: kids, setup, rvm, homebrew
-type: environment setup
-language: bash
----
+
 
 ###1. Install RSpec
 Enter `gem install rspec` in your terminal.
