@@ -14,3 +14,5 @@ Next, download the gem:
 
 The Learn gem will help track your progress on labs.
 
+
+<a href='https://learn.co/lessons/hs-setup-homebrew-rvm' data-visibility='hidden'>View this lesson on Learn.co</a>
